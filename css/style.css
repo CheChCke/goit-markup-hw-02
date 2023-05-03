@@ -3,6 +3,7 @@
     --color-menu-text: #2e2f42;
     --color-menu-accent-hover: #404bbf;
     --main-small-text: #434455;
+    --color-hero-bg: #2e2f42;
 }
 
 body{
@@ -10,7 +11,7 @@ body{
     color: #434455;
     background-color: #ffffff;
 }
-
+/* NAV_MENU */
 .header-nav .logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -57,4 +58,36 @@ a {
         line-height: 24px;
         letter-spacing: 0.02em;
         color: var(--main-small-text)
+}
+/* NAV_MENU_END */
+/* HERO_START */
+.main-hero{
+    background-color: var(--color-hero-bg);
+}
+
+.main-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff
+}
+
+.button-hero-main{
+    background-color: #4d5ae5;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.button-hero-main:hover, :focus{
+    background-color: var(--color-menu-accent-hover)
 }
