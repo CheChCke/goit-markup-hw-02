@@ -2,6 +2,7 @@
     --color-main-logo: #4d5ae5;
     --color-menu-text: #2e2f42;
     --color-menu-accent-hover: #404bbf;
+    --main-small-text: #434455;
 }
 
 body{
@@ -42,10 +43,19 @@ body{
 }
 
 .menu:hover,
-.menu:focus {
+.menu:focus,
+.mail:hover, :focus,
+.tel:hover, :focus {
     color: var(--color-menu-accent-hover)
 }
 
-.nav-addres{
-    font-style: normal;
+.nav-addres,
+a {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;   
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: var(--main-small-text)
 }
