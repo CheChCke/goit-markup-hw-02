@@ -12,7 +12,7 @@ body{
     background-color: #ffffff;
 }
 /* NAV_MENU */
-.header-nav .logo{
+.logo{
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -146,6 +146,8 @@ a {
 /* FOOTER_START */
 .footer{
     background-color: var(--color-hero-bg);
-    
-}
 
+}
+.footer-logo-text {
+    color: #f4f4fd;
+}
