@@ -143,4 +143,9 @@ a {
     /* h3-title-description-frm-section2 */
     /* p-text-descroption-from-section2 */
 /* Section4_END */
+/* FOOTER_START */
+.footer{
+    background-color: var(--color-hero-bg);
+    
+}
 
