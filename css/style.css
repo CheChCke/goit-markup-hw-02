@@ -1,6 +1,7 @@
 :root{
-    --color-text-main: #4d5ae5;
-    --color-text-secondary: #2e2f42;
+    --color-main-logo: #4d5ae5;
+    --color-menu-text: #2e2f42;
+    --color-menu-accent-hover: #404bbf;
 }
 
 body{
@@ -16,7 +17,7 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--color-text-main)
+    color: var(--color-main-logo)
 }
 
 .link{
@@ -37,11 +38,12 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: var(--color-text-secondary)
+    color: var(--color-menu-text)
 }
+
 .menu:hover,
 .menu:focus {
-    color: #404bbf
+    color: var(--color-menu-accent-hover)
 }
 
 .nav-addres{
