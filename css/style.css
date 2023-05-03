@@ -124,3 +124,20 @@ a {
     text-transform: capitalize;
     color: var(--color-menu-text)
 }
+/* Section3_END */
+/* Section4_START */
+.our-team{
+    background-color: #f4f4fd;
+}
+.our-team-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-menu-text)
+}
+.worker{
+    background-color: #ffffff;
+    /* h3-tite-description-frm-section2 */
+}
