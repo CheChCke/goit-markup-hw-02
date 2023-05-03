@@ -4,6 +4,7 @@
     --color-menu-accent-hover: #404bbf;
     --main-small-text: #434455;
     --color-hero-bg: #2e2f42;
+    --bg-btn-color: #f4f4fd;
 }
 
 body{
@@ -150,4 +151,24 @@ a {
 }
 .footer-logo-text {
     color: #f4f4fd;
+}
+
+/* PORTFOIO_PAGE_START >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+/* FITER_NAVIGATION_START */
+.btn-filtr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--color-main-logo);
+    background-color: var(--bg-btn-color);
+}
+
+.btn-filtr:hover, 
+.btn-filtr:focus{
+    color: #ffffff;
+    background-color: var(--color-menu-accent-hover);
+    cursor: pointer;
 }
