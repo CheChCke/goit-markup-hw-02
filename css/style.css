@@ -1,4 +1,38 @@
+:root{
+}
+
 body{
-    font-family: "Roboto", sans-serif
-    
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+.header-nav{
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo-text{
+    color:#2e2f42 ;
+}
+
+.list{
+    list-style: none;
+}
+
+.list .menu{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
