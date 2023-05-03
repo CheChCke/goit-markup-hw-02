@@ -114,3 +114,13 @@ a {
     letter-spacing: 0.02em;
     color: var(--main-small-text)
 }
+/* Section2_END */
+/* Section3_START */
+.about-us-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--color-menu-text)
+}
