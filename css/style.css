@@ -44,8 +44,7 @@ body{
 
 .menu:hover,
 .menu:focus,
-.mail:hover, :focus,
-.tel:hover, :focus {
+.information:hover, :focus {
     color: var(--color-menu-accent-hover)
 }
 
