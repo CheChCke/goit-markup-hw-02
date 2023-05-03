@@ -1,5 +1,6 @@
 :root{
     --color-text-main: #4d5ae5;
+    --color-text-secondary: #2e2f42;
 }
 
 body{
@@ -36,4 +37,13 @@ body{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
+    color: var(--color-text-secondary)
+}
+.menu:hover,
+.menu:focus {
+    color: #404bbf
+}
+
+.nav-addres{
+    font-style: normal;
 }
