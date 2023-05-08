@@ -147,6 +147,7 @@ a {
 /* FOOTER_START */
 .footer{
     background-color: var(--color-hero-bg);
+    color: var(--bg-btn-color)
 
 }
 .footer-logo-text {
